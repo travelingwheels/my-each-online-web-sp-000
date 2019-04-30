@@ -5,5 +5,6 @@ def my_each(array) # put argument(s) here
   block_given?
   yield (array[i])
   i += 1 
-end
+  end
+  array
 end
