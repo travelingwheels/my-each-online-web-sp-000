@@ -1,3 +1,6 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(words) # put argument(s) here
+  # code here 
+  block_given?
+  while
+end
 end
