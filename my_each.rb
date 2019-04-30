@@ -1,6 +1,7 @@
-def my_each(words) # put argument(s) here
+def my_each(array) # put argument(s) here
   # code here 
-  block_given?
-  while
+  i = 0 
+  while i < array.length
+  yield 
 end
 end
